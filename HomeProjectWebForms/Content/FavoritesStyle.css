@@ -1,0 +1,20 @@
+﻿.favoriteLayout {
+    background: white;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
+}
+
+.favoriteGridView {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.employeeImage { float: left; }
+
+.favoritePersonName { margin-left: 16px; }

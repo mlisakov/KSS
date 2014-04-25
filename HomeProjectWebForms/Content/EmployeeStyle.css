@@ -1,0 +1,217 @@
+﻿.employeeLayout {
+    background: white;
+    height: 100%;
+    width: 100%;
+
+    /*test*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /*endtest*/
+}
+
+.formView {
+    bottom: 0;
+    display: block;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+    /*overflow-y: auto;
+    position: absolute;*/
+}
+
+.formView tr { vertical-align: top; }
+
+.employeeLayout td {
+    margin: 0;
+    padding: 0;
+}
+
+.personImage {
+    display: block;
+    margin: 0 auto;
+    max-height: 450px;
+    max-width: 400px;
+    width: 95%;
+}
+
+.employeeViewItemTemplate {
+    -moz-min-width: 700px;
+    -ms-min-width: 700px;
+    -o-min-width: 700px;
+    -webkit-min-width: 700px;
+    background: azure;
+    display: inline-block;
+    height: auto;
+    /*margin: 30px;*/
+    margin: 10px 0 5px 0;
+    /*margin-bottom: 5px;*/
+    /*min-height: 400px;*/
+    min-width: 700px;
+    padding: 10px;
+    /*width: 100%;*/
+
+    /*test*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    /*endtest*/
+}
+
+.employeeViewItemTemplateFirstColumn {
+    -moz-min-width: 30%;
+    -ms-min-width: 30%;
+    -o-min-width: 30%;
+    -webkit-min-width: 30%;
+    float: left;
+    /*max-width: 50%;
+    min-height: inherit;
+    min-width: 30%;*/
+}
+
+.employeeViewItemTemplateSecondColumn {
+    -moz-min-width: 50%;
+    -ms-min-width: 50%;
+    -o-min-width: 50%;
+    -webkit-min-width: 50%;
+    float: left;
+    /*max-width: 70%;
+    min-width: 50%;	*/
+}
+
+.employeeRow { margin-bottom: 10px; }
+
+.employeeRow p {
+    -moz-min-width: 150px;
+    -ms-min-width: 150px;
+    -o-min-width: 150px;
+    -webkit-min-width: 150px;
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    min-width: 150px;
+    max-width: 400px;
+    word-wrap: break-word;
+    padding: 0;
+}
+
+.employeeRowSpan { font-style: italic; }
+
+.favoriteButton {
+    background: none;
+    border: none;
+    float: left;
+    margin: 2px 0 0 0;
+    padding: 0;
+    width: auto;
+}
+
+.emptyInput {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+.editButton { float: right; }
+
+.imageButtons {
+    background: transparent;
+    border: none;
+    margin: 0;
+    width: auto;
+}
+
+.UserPhonesGridViewClass {
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 0;
+}
+
+
+#workPhoneParagraph, #mobilePhoneParagraph, #addMobilePhoneParagraph, #addWorkPhoneParagraph { float: none; }
+
+.addWorkPhoneImage {
+    border: transparent 1px solid;
+    float: right;
+    padding: 5px;
+}
+
+.addWorkPhoneImage:hover {
+    background: lightgrey;
+    cursor: pointer;
+}
+
+.toggledImage {
+    background: lightgray;
+    border-color: gray;
+}
+
+#collapsibleContainer {
+    background: lightgray;
+    display: none;
+    /*float: left;*/
+    height: auto;
+    width: auto;
+}
+
+.CContainer {
+    background: lightgray;
+    display: none;
+    height: auto;
+    width: auto;
+}
+
+.collapsibleLayout {
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.collapsibleFirstColumn {
+    float: left;
+    margin-right: 10px;
+}
+
+.contactName {
+    font-size: inherit;
+    margin: 0;
+    width: 149px;
+}
+
+.phoneInput {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+}
+
+#numberParagraph, #filialParagraph, #P1, #P2 {
+    -moz-min-width: 70px;
+    -ms-min-width: 70px;
+    -o-min-width: 70px;
+    -webkit-min-width: 70px;
+    min-width: 70px;
+}
+
+#phoneTypeParagraph, #regionParagraph, #p3, #P4 {
+    -moz-min-width: 110px;
+    -ms-min-width: 110px;
+    -o-min-width: 110px;
+    -webkit-min-width: 110px;
+    min-width: 110px;
+}
+
+.collapsibleCell { margin-bottom: 10px; }
+
+.addPhoneButton { float: right }
+
+#editFilial, #editRegion, #editStreet, #editHouse {
+    -moz-min-width: 70px;
+    -ms-min-width: 70px;
+    -o-min-width: 70px;
+    -webkit-min-width: 70px;
+    min-width: 70px;
+}
+
+.editPhoneBox { margin: 0 10px 0 0; }

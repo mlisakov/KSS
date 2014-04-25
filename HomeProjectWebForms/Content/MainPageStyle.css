@@ -1,0 +1,470 @@
+﻿.leftColumn {
+    background: -moz-linear-gradient(top, rgba(0, 68, 128, 1) 0, rgba(0, 139, 209, 1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 68, 128, 1)), color-stop(100%, rgba(0, 139, 209, 1))); /* Chrome,Safari4+ */
+    background: -moz-linear-gradient(top, rgba(0, 68, 128, 1) 0, rgba(0, 139, 209, 1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 68, 128, 1)), color-stop(100%, rgba(0, 139, 209, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 68, 128, 1) 0, rgba(0, 139, 209, 1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 68, 128, 1) 0, rgba(0, 139, 209, 1) 100%); /* Opera 11.10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#004480', endColorstr='#008bd1', GradientType=0); /* IE6-9 */
+    background: #004480;
+    float: left;
+    height: inherit;
+    overflow: auto;
+    width: 30%;
+}
+
+.rightColumn {
+    -moz-min-width: 125px;
+    -ms-min-width: 125px;
+    -o-min-width: 125px;
+    -webkit-min-width: 125px;
+    background: lightgoldenrodyellow;
+    float: right;
+    height: inherit;
+    min-width: 125px;
+    width: 15%;
+}
+
+#layout { height: 100%; }
+
+.centerColumn {
+    /*padding: 0 10px;*/
+    -moz-min-width: 300px;
+    -ms-min-width: 300px;
+    -o-min-width: 300px;
+    -webkit-min-width: 300px;
+    background: azure;
+    /*min-width: 300px;*/
+    float: left;
+    /*margin-left: 30%;*/
+    /*margin-right: 17%;*/
+    height: 100%;
+    width: 55%;
+}
+
+.treeNode {
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.rootNode {
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.leafNode {
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.selectNode {
+    color: #FECE27;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#emptyDataDiv {
+    display: table;
+    height: 70%;
+    margin: 0 auto;
+    width: 150px;
+}
+
+#emptyText {
+    color: gray;
+    display: table-cell;
+    font-size: medium;
+    vertical-align: middle;
+}
+
+.itemLayout {
+    background: azure;
+    border-bottom: #008bd1 dotted 1px;
+    height: auto;
+    min-height: 70px;
+    overflow: hidden;
+    padding: 10px 0 0 10px;
+    position: relative;
+    width: inherit;
+    width: 98%;
+}
+
+/*.centerColumn div { height: inherit; }*/
+
+.centerColumn .itemLayout { height: auto; }
+
+.leftAlignment { float: left; }
+
+.buttonsColumn {
+    float: none;
+    height: 100%;
+    position: absolute;
+    width: 30px;
+}
+
+.lyncStatus2 {
+    background: azure;
+    float: none;
+    height: 100%;
+    margin-left: 30px;
+    position: absolute;
+    width: 7px;
+}
+
+.lyncStatusImg {
+    height: inherit;
+    width: inherit;
+}
+
+.firstColumnWithMargin { margin-left: 37px; }
+
+.itemFirstColumn { width: 55%; }
+
+.itemFirstColumn a {
+    color: skyblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.itemFirstColumn a:hover {
+    color: darkcyan;
+    text-decoration: underline;
+}
+
+.adressSpan {
+    display: block;
+    margin-left: 19px;
+}
+
+.jobSpan {
+    display: block;
+    font-style: italic;
+    margin-left: 19px;
+}
+
+.itemSecondColumn {
+    float: right;
+    margin-left: 40px;
+}
+
+.phones {
+    float: left;
+    margin: 0 10px 0 5px;
+}
+
+.images { margin-top: 2px; }
+
+.progressBar {
+    left: 48%;
+    position: absolute;
+    top: 48%;
+}
+
+.centerProgressBar {
+    left: 55%;
+    position: absolute;
+    top: 48%;
+}
+
+.rightProgressBar {
+    left: 45%;
+    position: absolute;
+    top: 48%;
+}
+
+@-webkit-keyframes rotateEndlessly {
+    from { -webkit-transform: rotate(0); }
+
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes rotateEndlessly {
+    from { -moz-transform: rotate(0); }
+
+    to { -moz-transform: rotate(360deg); }
+}
+
+@-o-keyframes rotateEndlessly {
+    from { -o-transform: rotate(0); }
+
+    to { -o-transform: rotate(360deg); }
+}
+
+@keyframes rotateEndlessly {
+    from { transform: rotate(0); }
+
+    to { transform: rotate(360deg); }
+}
+
+@-ms-keyframes rotateEndlessly {
+    from { -ms-transform: rotate(0); }
+
+    to { -ms-transform: rotate(360deg); }
+}
+
+#image {
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: rotateEndlessly;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-duration: 2s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-name: rotateEndlessly;
+    -ms-animation-timing-function: linear;
+
+    -o-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+
+    -o-animation-name: rotateEndlessly;
+    -o-animation-name: rotateEndlessly;
+    -o-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: rotateEndlessly;
+    -webkit-animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: rotateEndlessly;
+    animation-timing-function: linear;
+}
+
+#MainContent_UpdateProgress1 {
+    background-color: #ffffff;
+    background-color: #ffffff;
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 30%;
+}
+
+#MainContent_UpdateProgress2 {
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 79%;
+    position: absolute;
+    width: 55%;
+}
+
+#MainContent_EmployeesListView_tblEmployees {
+    bottom: 20px;
+    display: block;
+    overflow-y: auto;
+    position: absolute;
+    top: 90px;
+}
+
+#EmployeesListViewLayout { width: 54.5%; }
+
+#MainContent_UpdatePanel2 {
+    height: 100%;
+    width: 100%;
+}
+
+.blockObject { display: block; }
+
+.lyncPanelButton {
+    background: none;
+    border: none;
+    bottom: 0;
+    float: none;
+    left: 0;
+    margin: 0 0 10px 3px;
+    padding: 0;
+    position: absolute;
+    width: auto;
+}
+
+.favoriteButton {
+    background: none;
+    border: none;
+    float: left;
+    margin: 2px 0 0 0;
+    padding: 0;
+    width: auto;
+}
+
+.withLeftMargin { margin-left: 7px; }
+
+#section {
+    height: 31px;
+    margin-left: 10px;
+}
+
+.searchTextBoxContainer {
+    display: block;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+.searchTextBox {
+    margin: 10px 0 0 0;
+    /*height: 25px;*/
+    width: 100%;
+    /*padding: 1px 0 0 0;*/
+}
+
+.searchButton {
+    background-color: #fff;
+    float: right;
+    font-weight: normal;
+    /*height: 25px;*/
+    margin: 10px 10px 5px 0;
+    max-width: 62px;
+    padding: 0 10px;
+}
+
+#additionalSearch {
+    color: lightgray;
+    height: 19px;
+}
+
+#additionalSearch p {
+    float: right;
+    margin: 0 13px 0 0;
+    text-decoration: underline;
+}
+
+#additionalSearch p:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.bigHeight {
+    background: red;
+    /*height: 300px;*/
+}
+
+#collapsibleContainer {
+    background: lightgrey;
+    height: auto;
+    margin: 0 10px;
+    min-width: 790px;
+}
+
+.content {
+    height: 34px;
+    margin-right: 10px;
+}
+
+.additionalSearchFieldLabel {
+    float: left;
+    margin: 7px 10px;
+    width: 110px;
+}
+
+.little { width: 20px; }
+
+.additionalSearchField { width: 643px; }
+
+.checkbox {
+    height: inherit;
+    margin: 10px;
+}
+
+.checkbox input { margin-top: 10px; }
+
+.checkbox label {
+    display: inline;
+    float: left;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 7px 10px;
+    margin-left: 10px;
+}
+
+.datePicker { float: left; }
+
+#toolBar {
+    background: lightskyblue;
+    height: 36px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    padding: 0;
+}
+
+.toolBarItem {
+    -ms-border-radius: 3px;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin: 1px 2px 0 2px;
+    width: auto;
+}
+
+.toolBarItem:hover { background: #fff; }
+
+#birthdayToolBar {
+    background: lightskyblue;
+    display: block;
+    height: 36px;
+    margin: 4px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#MainContent_EmployeesListView_DataPager {
+    bottom: 0;
+    height: 20px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+#birthdaysListLayout {
+    bottom: 0;
+    left: 85%;
+    margin: 0 5px;
+    overflow-y: auto;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+#MainContent_UpdatePanel3 { width: 100%; }
+
+.birthdayItemDiv {
+    border-bottom: 1px lightskyblue dotted;
+    padding-top: 5px;
+}
+
+.birthdayItemInnerDiv { margin-left: 19px; }
+
+.birthdayItemInnerDiv p {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.bolder { font-weight: bolder }
+
+.dateSpan {
+    float: left;
+    margin-left: 5px;
+}
+
+.groupHeader { margin: 0; }
+
+#MainContent_UpdateProgress3 {
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    position: absolute;
+    width: inherit;
+}
+
+.emptyCssClass { display: none; }
+
+#BirthDayStartTextBox { float: left; }
